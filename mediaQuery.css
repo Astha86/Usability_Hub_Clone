@@ -1,0 +1,127 @@
+@media screen and (max-width: 991px) {
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h1{
+        font-size: 34px;
+    }
+
+    #bar{
+        display: block;
+        margin-right: 20px;
+    }
+    
+    .nav-links{
+        display: none;
+    }
+
+    .eg-area{
+        gap: 20px;
+    }
+
+    .card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .cta{
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .prim{
+        width: 50%;
+    }
+
+    .header{
+        flex-direction: column-reverse;
+    }
+
+    .left{
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    /* .f-card{
+        min-width: calc(50% - 10px);
+    } */
+
+    .ftrs{
+        flex-direction: column;
+    }
+
+    .ftrs img{
+        width: 80%;
+        gap: 10%;
+    }
+
+    .rev{
+        flex-direction: column-reverse;
+    }
+
+    .fimg{
+        margin-top: 15%;
+    }
+
+    .ryt{
+        margin-top: 25px;
+    }
+
+    .fsec{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .sfoot p{
+        margin-top: 20px ;
+        margin-bottom: 15px;
+    }
+
+    .res{
+        margin-left: 68px;
+    }
+}
+
+@media screen and (max-width: 479px){
+
+    :root{
+        --padding-inline-section: 10px
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .cnt img{
+        width: 20px;
+    }
+
+    .terms{
+        flex-direction: column;
+    }
+
+    .sfoot{
+        flex-direction: column;
+    }
+
+    .f-card{
+        min-width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
